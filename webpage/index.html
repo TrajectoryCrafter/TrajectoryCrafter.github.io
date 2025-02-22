@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="TrajectoryCrafter.">
+  <meta name="keywords" content="PVDiffusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrajectoryCrafter
+  </title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/script.js"></script>
+</head>
+
+<body>
+	<button style="position: fixed;right: 15px;top:  50%;height: 100px;width: 140px; font-size: 20px;" type="button"><a href="#top">Back to top</a></button> 
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/title.png" style="height:120px"></img> 
+            <h1 class="title is-1 publication-title">
+              Redirecting View Trajectory for Monocular Videos via Diffusion Models
+            </h1>
+          <!-- TODO: update paper link -->
+          <div class="column has-text-centered">
+            <!-- <div class="publication-links"> -->
+              <!-- PDF Link. -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/TrajectoryCrafter/TrajectoryCrafter"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+              <a href=""
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://www.youtube.com/watch?v=dQtHFgyrids"
+                  class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span>
+              <!-- Demo Link. -->
+              <span class="link-block">
+                <a href=""
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span>🤗 Demo</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--Video-->
+    <section style="padding: 0;margin-top: -25px;" class="section hero">
+      <div class="container is-max-desktop">
+            <div class="item">
+            <div class="column-video" style="border-radius:10px;justify-content: center;align-items: center; font-size: 100px;">
+              <iframe width="960" height="540" src="https://www.youtube.com/embed/dQtHFgyrids" src="" class="frame" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+      </div>
+    </section>  
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <hr>
+      <div class="column is-four-fifths"></div>
+      <!-- <div class="has-text-centered"> -->
+      <div>
+        <h2 class="title is-3"> <span
+          style="color: #2b2b2b ;font-weight: bolder;">Camera Trajectory Redirection</span> 
+        </h2>
+        <h2 class="title is-5"> Source video &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <span
+          style="color: #489EF6 ;font-weight: bolder;">TrajectoryCrafter</span></h2>
+
+        <!-- <div>
+          <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/part-2-3.mp4" ></video>
+       </div> -->
+       <div>
+        <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/UST-fn-RvhJwMR5S.mp4" ></video>
+     </div>
+       <!-- <div>
+        <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/chinese-new-year-dragon.mp4" ></video>
+     </div> -->
+     <div>
+      <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/H6UiqKOdRY2uWEzt.mp4" ></video>
+    </div>   
+  </div>
+  <div>
+   <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/part-1-5.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/v4.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/pika8.mp4" ></video>
+</div>   
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/tokyo-walk.mp4" ></video>
+</div>   
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/veo2.mp4" ></video>
+</div>     
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/vidu7.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/8229292-hd_1280_720_25fps.mp4" ></video>
+</div>   
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/vlogger-corgi.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/v2.mp4" ></video>
+</div>    
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/3192197-hd_1280_720_25fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/2098988-hd_1280_720_30fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/3009091-hd_1280_720_30fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/wooly-mammoth.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/first-2.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/3704910-hd_1366_720_50fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/3042471-hd_1280_720_30fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/12752967_1280_720_30fps.mp4" ></video>
+</div>
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/5548245-hd_1280_720_25fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/a-toy-robot-wearing-blue-jeans-and-a-white-t-shirt-taking-a-pleasant-stroll-in-Antarctica-during-a-beautiful-sunset.mp4" ></video>
+</div>
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/an-old-man-wearing-purple-overalls-and-cowboy-boots-taking-a-pleasant-stroll-in-Antarctica-during-a-winter-storm.mp4" ></video>
+</div>
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/output-3.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/p8.mp4" ></video>
+</div> 
+<!-- <div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/2436088-hd_1280_720_25fps.mp4" ></video>
+</div>  -->
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/first-4.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/v8.mp4" ></video>
+</div>
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/v3.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/nvs/hike.mp4" ></video>
+</div> 
+
+
+      </div>
+    </div>
+    </div>
+
+</section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <hr>
+      <div class="column is-four-fifths"></div>
+      <!-- <div class="has-text-centered"> -->
+      <div>
+        <h2 class="title is-3"> <span
+          style="color: #2b2b2b ;font-weight: bolder;">Bullet Time</span> 
+        </h2>
+        <h2 class="title is-5"> Source video &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <span
+          style="color: #489EF6 ;font-weight: bolder;">TrajectoryCrafter</span></h2>
+          <div>
+            <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/pika10.mp4" ></video>
+          </div>  
+        <div>
+          <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/0-NNvgaTcVzAG0-r.mp4" ></video>
+       </div>
+       <div>
+        <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/tUfDESZsQFhdDW9S.mp4" ></video>
+     </div>  
+       <div>
+        <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/005-20241120_1443_Claymation Friends_ Adventure_simple_compose_01jd5vxtbyf3nve090cn5vm2m4 (1).mp4" ></video>
+     </div>
+     <div>
+      <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/010-7_20241120_2300_Harmony with Nature_simple_compose_01jd6ras77f01s8we76f97xsvm (2).mp4" ></video>
+   </div>
+       <div>
+        <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/1182756-hd_1280_720_25fps.mp4" ></video>
+     </div>  
+  </div>
+  <div>
+   <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/2554576-hd_1280_720_25fps.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/5092549-hd_1280_720_30fps.mp4" ></video>
+</div>    
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/AQOGoRNNttaiv6GurKZSTJInN2JKv-I_KDeLmKlP0ezuMNoFSnPj2w_UKfMrU7TJ6OuhC5bYmfjbOwcXXRMldykb.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/v6.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/a2.mp4" ></video>
+</div>     
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/pika9.mp4" ></video>
+</div>    
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/otter-on-surfboard.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/2436088-hd_1280_720_25fps.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/part-1-3.mp4" ></video>
+</div>  
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/sampling_2.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/Meta Movie Gen.mp4" ></video>
+</div> 
+<div>
+  <video class="video" loop playsinline autoPlay muted src="static/videos/bullet/5290685-hd_1280_720_50fps.mp4" ></video>
+</div> 
+      </div>
+    </div>
+    </div>
+  </section>  
+
+
+  </script>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <hr>
+      <div class="column is-four-fifths"></div>
+      <!-- <div class="has-text-centered"> -->
+      <div>
+        <h2 class="title is-3"> <span
+          style="color: #2b2b2b ;font-weight: bolder;">Frozen Camera</span> 
+        </h2>
+        <h2 class="title is-5"> Source video &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <span
+          style="color: #489EF6 ;font-weight: bolder;">TrajectoryCrafter</span></h2>
+          <div>
+            <video class="video" loop playsinline autoPlay muted src="static/videos/direct/pika1.mp4" ></video>
+          </div>  
+          <div>
+            <video class="video" loop playsinline autoPlay muted src="static/videos/direct/cat3.mp4" ></video>
+         </div>  
+          <div>
+            <video class="video" loop playsinline autoPlay muted src="static/videos/direct/fat.mp4" ></video>
+         </div>  
+     <div>
+      <video class="video" loop playsinline autoPlay muted src="static/videos/direct/cat2.mp4" ></video>
+   </div>  
+   <div>
+    <video class="video" loop playsinline autoPlay muted src="static/videos/direct/kola.mp4" ></video>
+ </div>  
+<hr> 
+      </div>
+    </div>
+    </div>
+  </section>  
+
+
+  </script>
+
+  
+</body>
+
+</html>
